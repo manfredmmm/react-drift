@@ -1,7 +1,7 @@
 import React from 'react'
 import styleable from 'react-styleable'
 
-import css from './slide.css'
+import css from './slide.scss'
 
 const { object, string } = React.PropTypes
 

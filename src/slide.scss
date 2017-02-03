@@ -1,8 +1,6 @@
-@import "./config.css";
+@import "./config.scss";
 
-:root {
-  --footerHeight: 110px;
-}
+$footerHeight: 110px;
 
 .root {
   position: absolute;
@@ -11,10 +9,10 @@
 }
 .footer {
   position: absolute;
-  top: calc(var(--imageHeight) - var(--footerHeight));
+  top: calc($imageHeight - $footerHeight);
   left: 0;
   width: 100%;
-  height: var(--footerHeight);
+  height: $footerHeight;
   padding: 15px;
   background: rgba(0, 0, 0, .3);
   color: #fff;

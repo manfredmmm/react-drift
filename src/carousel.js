@@ -1,7 +1,7 @@
 import React from 'react'
 import styleable from 'react-styleable'
 
-import css from './carousel.css'
+import css from './carousel.scss'
 
 const { node, number } = React.PropTypes
 

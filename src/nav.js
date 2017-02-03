@@ -1,7 +1,7 @@
 import React from 'react'
 import styleable from 'react-styleable'
 
-import css from './nav.css'
+import css from './nav.scss'
 
 const { func, bool } = React.PropTypes
 
